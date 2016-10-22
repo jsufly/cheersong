@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* page 分页样式 */
+.paging{margin:30px; font-size:12px;}
+.paging ul li{float:left;height: 22px;line-height: 22px;cursor: pointer;list-style:none;}
+.paging ul li:hover,li.pagenumber:hover{color:#F66;}
+.paging .pageInfo{margin-left: 2px;}
+.paging .pagenumber{margin-left:-40px;}
+.paging .start{width:45px;  padding:0 8px 0 0;text-align:right; height:22px; line-height:22px; display:block; text-align:right; }
+.paging .start_off{width:40px; padding:0 10px 0 0; text-align:right;  font-family:Arial,Helvetica,sans-serif;}
+.paging .first{width:65px; padding:0 8px 0 0; height:22px; line-height:22px; display:block; text-align:right; }
+.paging .first_off{width:60px; padding:0 20px 0 0; text-align:right; font-family:Arial,Helvetica,sans-serif;}
+.paging .fleft{ width:10px;}
+.paging .fcenter,.pagenumber li.nowPage{ padding:0 5px;}
+.paging .fright{  width:5px;}
+.paging .next{width:40px;margin-left:8px;padding:0px; height:22px; line-height:22px; display:block; text-align:left; }
+.paging .next_off{width:40px;margin-left:8px;padding:0px; text-align:left; font-family:Arial,Helvetica,sans-serif;}
+.paging .end{width:45px;margin-left:8px; padding:0 0 0 8px; height:22px; line-height:22px; display:block; text-align:left;  }
+.paging .end_off{width:45px;margin-left:8px; padding:0 0 0 8px; text-align:left;  font-family:Arial,Helvetica,sans-serif;}
+.paging .pagenumber li{color:#000; font-size:12px; font-family:Arial,Helvetica,sans-serif;}
+.paging .pagenumber li.nowPage{color: #F70707;font-weight: bold;font-size: 14px;}
+.paging select{padding:2px; height:22px; border:1px #CCC solid; background:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+#totalPage,#currentPage{color:red;font-weight: bold;}
